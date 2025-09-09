@@ -4,7 +4,8 @@ Lets's start learning Web Development
 #### Hyper Text Markup Language <br>
 It's used for defining layout of a web page.
 ### A basic HTML page 
-<!DOCTYPE html> (Specifies this is an html document)
+```
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,3 +16,8 @@ It's used for defining layout of a web page.
     
 </body>
 </html>
+```
+ ### <! Doctype html>
+It specifies this is an html document.
+ ### <html> 
+root of an html page 
