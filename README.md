@@ -1,7 +1,7 @@
 # Web-Development
 Lets's start learning Web Development
 ## HTML
-Hyper Text Markup Language
+Hyper Text Markup Language <br>
 It's used for defining layout of a web page.
 ### A basic HTML page 
 <!DOCTYPE html>
