@@ -36,7 +36,8 @@ The main body of the page. We can add elements inside the body tag to define the
 ### Anchor tag
 Use to add links 
 ```
-<a href="www.du.ac.in"> Click me </a>
+<a href="contact"> Contact us </a> <!-- contact page opens in same tab -->
+<a href="contact" target="blank"> Contact us </a> <!-- Opens in a new tab -->
 ```
 You can even wrap an image in an anchor tag: (img tag is used to add images)
 ```
@@ -101,6 +102,56 @@ The <sup> tag makes text appear slightly above the normal line.
 ```
  Exponents: x<sup>2</sup>
 ```
+### Header tag
+It is a semantic element used to define introductory content or navigational links for a webpage or a section. It helps structure your HTML meaningfully.
+```
+<header>
+  <h1>Welcome to My Website</h1>
+  <nav>
+    <a href="home">Home</a>
+    <a href="about">About</a>
+    <a href="contact">Contact</a>
+  </nav>
+</header>
+```
+### Main tag
+It represents the central content of a webpage—the part that’s directly related to the page’s purpose.
+Inside the main tag we insert the following tags:
+```
+<main> <!-- The main opening tag -->
+<section> <!-- A page section --> </section>
+<article> <!-- A self contained content --> </article>
+<aside> <!-- It as a sidebar, a callout box, or a place for extra info that complements the core material. -->
+</main> <!-- The main closing tag -->
+```
+### Div tag 
+It used as a container for other elements. div is a block level element( always takes full width).
+```
+<div>I am box </div>
+```
+### Span tag
+It is an inline container (takes as much width as necessary).
+```
+<span> I am a web developer </span>
+```
+### List tag
+It is used to display content which represents a list.<br>
+Unordered list : Used to list unordered items.
+```
+<ur>
+<li> Home</li>
+<li> About</li>
+</ur>
+```
+Ordered list : Used to list ordered items.
+```
+<ol>
+<li> Phone </li>
+<li> Pc </li>
+<li> Laptop</li>
+</ol>
+```
+### Tables tag 
 ### Comments in html
 Comments in html are used to mark text which should not be parsed . They can help document the source code.
 ```
