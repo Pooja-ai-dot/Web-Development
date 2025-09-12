@@ -377,5 +377,43 @@ div{
 ```
 ## CSS Box Model
 ![boxmodel](https://github.com/user-attachments/assets/7b5bd95e-7bc3-4080-98d4-b02aed5ae4b7)
-     
+## Setting width & height
+We can set width and height in CSS as follows
+```
+#box{
+     heght:40px;
+     widht:40px;
+     }
+```
+## Setting margin & padding
+We can set margin & padding as follows
+```
+.box{
+     margin:3px;
+     padding:4px;
+     }
+```
+## to set top right bottom left
+```
+.box{
+    margin:7px 0px 2px 11px;
+   }
+```
+## to set top&bottom and left&right
+```
+.box{
+     margin:7px 3px;
+     }
+```
+## We can also set individual margins/paddings like this:
+```
+.box{
+     margin-top:70px;
+     margin-bottom:3px;
+     margin-left:8px;
+     margin-right:9px;
+    }
+<!-- same goes with padding -->
+```
+## Setting borders    
 
