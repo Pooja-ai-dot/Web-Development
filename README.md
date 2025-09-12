@@ -238,3 +238,78 @@ body {
        }
 <!-- This will make your page background as red.-->
 ```
+#### HTML id and class attributes
+- When an html element is given an id, it serves as a unique identifier for that element.
+- When an html element is given a class, it now belongs to that class.
+- more than one elements can belong to a single class but every element must have a unique id.
+We can add multiple classes to an element like this
+```
+<div
+     id="first" class="C1 C2 C3">
+</div>
+```
+#### Three ways to add CSS to HTML
+- style tag : adding (<style>... </style>) to html
+- Inline CSS : adding CSS using Style attribute
+- External CSS: adding a stylesheet(.css) to html using link tag.
+### CSS Selector
+It is used to select an html elements for styling
+```
+body{
+color:red;
+background:pink;
+}
+<!-- Here body is a selector-->
+```
+#### 1. Element Selector
+It is used to select an element based of the tagname. <br>
+For example:
+```
+h2{
+   color:blue;
+}
+<!-- here h2 is a selector-->
+```
+#### 2. id Selector
+It is used to select an element with a given id .<br>
+For example:
+```
+#first{
+       background:black;
+        color:white;
+        }
+<!-- here # is used to target by id-->
+```
+#### 3.Class Selector
+It is used to select an element with a given class.<br>
+For example:
+```
+.red {
+      background:red;
+      }
+<!-- here .(dot) is used to target by class-->
+```
+#### 4. Universal Selector
+(*)can be used as a universal selector to select all the elements.
+```
+* {
+   margin:0px;
+   padding:0px;
+    }
+```
+#### Imp notes
+- We can use group selectors like this:
+  ``` h1, h2, h3, div{
+       color:blue;
+       }
+```
+- We can use element class as a selector like this:
+```
+p.red{
+     color:red;
+     }
+<!-- all paragraphs of red will get color of red-->
+```
+
+     
+
