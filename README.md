@@ -349,6 +349,32 @@ body{
     background-image:url("doremon.jpg")
     }
 ```
-
+### The background-property
+- <b>cover :</b> fits & no empty space remains
+- <b>contain :</b> fits & image is fully visible
+- <b>auto :</b> display in original size
+- <b>width :</b> set widht & height will be set automaticly
+### The background-position property
+Sets the starting position of a background image
+```
+div{
+   background-position: left top;
+   }
+```
+### The background-attachment property
+It defines a scrollable/ non-scrollable characyer of a background image
+```
+div{
+    background-attachment: fixed;
+     }
+```
+### The background shorthand
+It is a single property to set multiple background properties
+```
+div{
+    background: red url("img.png") no-repeat fixed right top;
+    }
+```
+## CSS Box Model
      
 
