@@ -311,6 +311,29 @@ p.red {
      }
 <!-- all paragraphs of red will get color of red-->
 ```
+## Colors and Backgrounds
+### The color property
+THe CSS color property can be used to set the text color inside an element 
+```
+p{
+  color:red;
+  }
+text color will be changed to red.
+```
+#### Types of color values 
+-<b> RGB :</b> Specify color using RED, GREEN, BLUE values
+```
+rgb(200,98.70)
+```
+- <b>HEX :</b> Specify color using hex code
+```
+# ff7180
+```
+- <b>HSL :</b>Specify the color using Hue, Saturation, Lightness values
+```
+hsl(8,90%,63%)
+```
+### The background-color property 
 
      
 
