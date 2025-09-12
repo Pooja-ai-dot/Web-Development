@@ -1,7 +1,7 @@
 # Web-Development
 Lets's start learning Web Development
 # HTML
-#### Hyper Text Markup Language <br>
+#### Hyper Text Markup Language
 It's used for defining layout of a web page.
 ### A basic HTML page 
 ```
@@ -228,3 +228,13 @@ This means more traffic, better visibility, and ideally, more conversions.<br>
 - Remove unused HTML/CSS & Js files + Compress them
 - Add alt test to images.
 # CSS
+#### Cascading Style Sheets 
+HTML is just an skelatal layout of a website. We need CSS to design a website, add styles to it and make it look beautiful.
+##### First line of CSS 
+Create a .css file inside your directory and add it to your HTML.Add the following line to your CSS.
+```
+body {
+       background-color: red;
+       }
+<!-- This will make your page background as red.-->
+```
