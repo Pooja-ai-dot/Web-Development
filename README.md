@@ -1,6 +1,6 @@
 # Web-Development
 Lets's start learning Web Development
-## <b>HTML</b>
+# HTML
 #### Hyper Text Markup Language <br>
 It's used for defining layout of a web page.
 ### A basic HTML page 
@@ -227,4 +227,4 @@ This means more traffic, better visibility, and ideally, more conversions.<br>
 - Compress images & other resources
 - Remove unused HTML/CSS & Js files + Compress them
 - Add alt test to images.
-## <b> CSS </b>
+# CSS
