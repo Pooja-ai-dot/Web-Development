@@ -228,9 +228,9 @@ This means more traffic, better visibility, and ideally, more conversions.<br>
 - Remove unused HTML/CSS & Js files + Compress them
 - Add alt test to images.
 # CSS
-#### Cascading Style Sheets 
+## Cascading Style Sheets 
 HTML is just an skelatal layout of a website. We need CSS to design a website, add styles to it and make it look beautiful.
-##### First line of CSS 
+## First line of CSS 
 Create a .css file inside your directory and add it to your HTML.Add the following line to your CSS.
 ```
 body {
@@ -238,7 +238,7 @@ body {
        }
 <!-- This will make your page background as red.-->
 ```
-#### HTML id and class attributes
+## HTML id and class attributes
 - When an html element is given an id, it serves as a unique identifier for that element.
 - When an html element is given a class, it now belongs to that class.
 - more than one elements can belong to a single class but every element must have a unique id.
@@ -248,11 +248,11 @@ We can add multiple classes to an element like this
      id="first" class="C1 C2 C3">
 </div>
 ```
-#### Three ways to add CSS to HTML
+## Three ways to add CSS to HTML
 - style tag : adding (<style>... </style>) to html
 - Inline CSS : adding CSS using Style attribute
 - External CSS: adding a stylesheet(.css) to html using link tag.
-### CSS Selector
+## CSS Selector
 It is used to select an html elements for styling
 ```
 body{
@@ -261,7 +261,7 @@ background:pink;
 }
 <!-- Here body is a selector-->
 ```
-#### 1. Element Selector
+## 1. Element Selector
 It is used to select an element based of the tagname. <br>
 For example:
 ```
@@ -270,7 +270,7 @@ h2{
 }
 <!-- here h2 is a selector-->
 ```
-#### 2. id Selector
+## 2. id Selector
 It is used to select an element with a given id .<br>
 For example:
 ```
@@ -280,7 +280,7 @@ For example:
         }
 <!-- here # is used to target by id-->
 ```
-#### 3.Class Selector
+## 3.Class Selector
 It is used to select an element with a given class.<br>
 For example:
 ```
@@ -289,7 +289,7 @@ For example:
       }
 <!-- here .(dot) is used to target by class-->
 ```
-#### 4. Universal Selector
+## 4. Universal Selector
 (*)can be used as a universal selector to select all the elements.
 ```
 * {
@@ -297,7 +297,7 @@ For example:
    padding:0px;
     }
 ```
-#### Imp notes
+## Imp notes
 - We can use group selectors like this:
 ```
    h1, h2, h3, div{
@@ -312,7 +312,7 @@ p.red {
 <!-- all paragraphs of red will get color of red-->
 ```
 ## Colors and Backgrounds
-### The color property
+## The color property
 THe CSS color property can be used to set the text color inside an element 
 ```
 p{
@@ -320,7 +320,7 @@ p{
   }
 text color will be changed to red.
 ```
-#### Types of color values 
+## Types of color values 
 -<b> RGB :</b> Specify color using RED, GREEN, BLUE values
 ```
 rgb(200,98.70)
@@ -333,7 +333,7 @@ rgb(200,98.70)
 ```
 hsl(8,90%,63%)
 ```
-### The background-color property 
+## The background-color property 
 It sepcifies the background color of a container 
 For example: 
 ```
@@ -341,7 +341,7 @@ For example:
        background-color:brown;
        }
 ```
-### The background-image property
+## The background-image property
 Used to set an image as the background
 For example:
 ```
@@ -349,26 +349,26 @@ body{
     background-image:url("doremon.jpg")
     }
 ```
-### The background-property
+## The background-property
 - <b>cover :</b> fits & no empty space remains
 - <b>contain :</b> fits & image is fully visible
 - <b>auto :</b> display in original size
 - <b>width :</b> set widht & height will be set automaticly
-### The background-position property
+## The background-position property
 Sets the starting position of a background image
 ```
 div{
    background-position: left top;
    }
 ```
-### The background-attachment property
+## The background-attachment property
 It defines a scrollable/ non-scrollable characyer of a background image
 ```
 div{
     background-attachment: fixed;
      }
 ```
-### The background shorthand
+## The background shorthand
 It is a single property to set multiple background properties
 ```
 div{
