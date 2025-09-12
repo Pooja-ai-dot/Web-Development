@@ -227,4 +227,4 @@ This means more traffic, better visibility, and ideally, more conversions.<br>
 - Compress images & other resources
 - Remove unused HTML/CSS & Js files + Compress them
 - Add alt test to images.
-
+## <b> CSS </b>
