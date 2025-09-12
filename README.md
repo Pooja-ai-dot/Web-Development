@@ -299,13 +299,14 @@ For example:
 ```
 #### Imp notes
 - We can use group selectors like this:
-  ``` h1, h2, h3, div{
+```
+   h1, h2, h3, div{
        color:blue;
        }
 ```
 - We can use element class as a selector like this:
 ```
-p.red{
+p.red {
      color:red;
      }
 <!-- all paragraphs of red will get color of red-->
