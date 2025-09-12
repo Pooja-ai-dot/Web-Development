@@ -334,6 +334,21 @@ rgb(200,98.70)
 hsl(8,90%,63%)
 ```
 ### The background-color property 
+It sepcifies the background color of a container 
+For example: 
+```
+.brown{
+       background-color:brown;
+       }
+```
+### The background-image property
+Used to set an image as the background
+For example:
+```
+body{
+    background-image:url("doremon.jpg")
+    }
+```
 
      
 
