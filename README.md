@@ -1,6 +1,6 @@
 # Web-Development
 Lets's start learning Web Development
-##<b> HTML</b>
+## <b>HTML</b>
 #### Hyper Text Markup Language <br>
 It's used for defining layout of a web page.
 ### A basic HTML page 
