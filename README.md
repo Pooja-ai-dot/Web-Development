@@ -376,5 +376,6 @@ div{
     }
 ```
 ## CSS Box Model
+![boxmodel](https://github.com/user-attachments/assets/7b5bd95e-7bc3-4080-98d4-b02aed5ae4b7)
      
 
