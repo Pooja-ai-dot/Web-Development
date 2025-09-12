@@ -163,7 +163,32 @@ used to add caption in table <br>
 <th colspan="3">Hello</th>
 ```
 ### Forms 
-It is used to collect input from the user 
+It is used to collect input from the user.
+```
+<form>
+-- Element of the form--
+</form>
+```
+ <b>Common Form Elements</b>
+ ```
+- <input> – text fields, checkboxes, radio buttons
+- <textarea> – multi-line text input
+- <select> – dropdown menus
+- <button> – clickable buttons
+- <label> – labels for inputs
+- <fieldset> and <legend> – group related elements
+```
+```
+<form action="/login" method="POST">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+
+  <button type="submit">Login</button>
+</form>
+```
 ### Comments in html
 Comments in html are used to mark text which should not be parsed . They can help document the source code.
 ```
