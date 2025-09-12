@@ -45,6 +45,19 @@ You can even wrap an image in an anchor tag: (img tag is used to add images)
   <img src="logo.png" alt="Logo">
 </a>
 ```
+### image tag 
+it is used to add image on html file.<br>
+```
+<img src="logo.png">
+```
+### Video tag
+It is uesd to play video in html file.<br>
+```
+<video src="hello.mp4">Click</video>
+````
+<b> Attribute for video</b><br>
+Width : to adjust width of a video <br>
+We can use autoplay/loop to autoplay or loop the video.
 ### heading tag
 It is used to mark heading . From h1 to h6, we have tags for the most important to the least least important.
 ```
@@ -178,6 +191,7 @@ It is used to collect input from the user.
 - <label> – labels for inputs
 - <fieldset> and <legend> – group related elements
 ```
+<b>Example</b>
 ```
 <form action="/login" method="POST">
   <label for="username">Username:</label>
@@ -194,3 +208,4 @@ Comments in html are used to mark text which should not be parsed . They can hel
 ```
 <!-- HTML comments -->
 ```
+
