@@ -162,6 +162,8 @@ used to add caption in table <br>
 ```
 <th colspan="3">Hello</th>
 ```
+### Forms 
+It is used to collect input from the user 
 ### Comments in html
 Comments in html are used to mark text which should not be parsed . They can help document the source code.
 ```
