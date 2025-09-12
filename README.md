@@ -152,6 +152,16 @@ Ordered list : Used to list ordered items.
 </ol>
 ```
 ### Tables tag 
+It used to create a tabular data .<br>
+<b> tr tag:</b> used to display table row <br>
+<b> th tag :</b> used to display table heading <br>
+<b> td tag :</b> used to display table data <br>
+<b> caption tag :</b>
+used to add caption in table <br>
+<b> colspan attribute :</b> used to cells spanning multiple table
+```
+<th colspan="3">Hello</th>
+```
 ### Comments in html
 Comments in html are used to mark text which should not be parsed . They can help document the source code.
 ```
