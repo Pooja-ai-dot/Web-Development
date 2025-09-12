@@ -208,4 +208,23 @@ Comments in html are used to mark text which should not be parsed . They can hel
 ```
 <!-- HTML comments -->
 ```
+## Search Engine Optimization (SEO)
+🔍 What SEO Actually Does
+SEO helps search engines:
+- Understand your content
+- Index your pages properly
+- Rank your site higher for relevant search queries<br>
+This means more traffic, better visibility, and ideally, more conversions.<br>
+#### you can implement SEO using the following techniques:
+- Set the title very nice & to the point <br>
+- Set the meta description 
+``` <meta name="description" content="...">```
+- Set a nice URL slug
+- Set the meta keywords tag
+- Set the meta author tag
+  ``` <meta name="author" content="Video">```
+- Set a faricon
+- Compress images & other resources
+- Remove unused HTML/CSS & Js files + Compress them
+- Add alt test to images.
 
