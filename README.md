@@ -455,4 +455,99 @@ Similar to inline but setting height,width,margin and padding is allowed. Elemen
 - with dispaly:none; the element is removed from the document flow. Its space is not blocked.
 - with visibility:hidden; the element is hidden but its space is reserved.
 ## text-align property
+It is used to set horizontal alignment of a text
+```
+.div{
+     text-align:center;
+     }
+```
+## text-decoration property.
+It is used to decorate the text.<br>
+It can be overline, line-through, underline, none.
+## text-transformation property
+It is used to specify uppercase and lowercase in a text.
+```
+p.uppercase{
+     text-transform:uppercase;
+     }
+```
+## line-height property
+It is used to specify the space between lines
+```
+.small{
+      line-height:0.7;
+      }
+```
+## Font
+Font plays a very important role in the look and feel of a website.
+## font-family
+It specifies the font of a text.<br>
+It can hold multiple values as a "fallback" system.
+```
+p{
+ font-family:"Times new Roman", monospace;
+  }
+```
+## other font properties
+- <b>font-size:</b> Sets the size of the font
+- <b>font-style:</b> Sets the font style
+- <b>font-varient:</b> Sets wherher text is displayed in small-caps
+- <b>font-weight:</b> Sets the weight of the font
+# Size, position & lists
+There are more units for discribing size other than 'px'.<br>
+There are <b> rem, em, vw, vh, percentage etc.</b>
+- <b>em : </b>Unit relative to the parent font size.
+- <b>rem :</b>Unit relative to the root font size.
+- <b>vw :</b>Unit relative to the 1% viewport width.
+- <b>vh :</b>Unit relative to 1% viewport height.
+- <b>% :</b> Unit relative to the parent element.
+## min/max- height/width property
+If the content is smaller than the minimum height, minimumheight will be applied. <br> Similar in the case with other related properties.
+## The position property
+It is used to manipulate the location of an element .<br>
+following are the possible values:
+- <b>static:</b> default position
+- <b>relative:</b>the top/bottom/left/right/z-index will now work. Otherwise the element is in the flow of document like static.
+- <b>absolute:</b>The element is removed from the flow & is relatively positioned to its first non-static ancestor.top/bottom etc works.
+- <b>fixed:</b>just like absolute except the element is positioned relative to the browser window.
+- <b>sticky:</b> The element is based on user's scroll position
+## list-style property
+the list style property is a shorthand for type,position & image.
+```
+ul{
+   list-style:square inside url("hello.png")
+   }
+```
+## z-index property
+It specifies the stack order of an element.<br>
+It defines which layer will be above which in case of overlapping elements.
+<img width="929" height="517" alt="z-index" src="https://github.com/user-attachments/assets/d717dea4-d7a8-4573-8979-a4c59da64a61" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
