@@ -522,6 +522,21 @@ ul{
 It specifies the stack order of an element.<br>
 It defines which layer will be above which in case of overlapping elements.
 <img width="929" height="517" alt="z-index" src="https://github.com/user-attachments/assets/d717dea4-d7a8-4573-8979-a4c59da64a61" />
+## The float property
+Float property is simple. It just flows the element towards left/right.
+```
+float:left;
+float:right;
+```
+## The clear property
+It is used to clear the float. <br>It specifies what elements can float beside a given element.
+## Flexbox
+Aim to providing a better way to layout, align and distribute space among items in a container.
+```
+.container{
+           display:flex;
+           }
+```
 
 
 
