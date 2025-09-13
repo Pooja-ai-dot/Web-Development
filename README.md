@@ -416,4 +416,43 @@ We can set margin & padding as follows
 <!-- same goes with padding -->
 ```
 ## Setting borders    
+We can set borders as follows
+```
+.box{
+     border-width:2px;
+     border-style:solid;
+     border-color:red;
+    }
+or just set :
+.box{
+     border:2px solid red;
+    }
+```
+## Border radius
+We can set border radius to create rounded borders.
+```
+.div{
+     border-radius: 7px;
+     }
+```
+## Box Sizing
+```
+.div{
+     box-sizing:border-box;
+   }
+```
+The content widht and height includes content + padding + border.
+## Fonts & Display
+### The display property
+It is used to determine whether an element is treated as a block/inline element & the layout used for its children (flexbox/grid/etc.)
+## display:inline;
+It takes only the space required by the element. No linebreaks before and after. setting width/height & margin/padding not allowed.
+## display:block;
+It takes full space available in width and leaves a newline before and after the element.
+## display:inline-block;
+Similar to inline but setting height,width,margin and padding is allowed. Elements can set next ot each other.
+## dispaly:none vs visibility:hidden
+- with dispaly:none; the element is removed from the document flow. Its space is not blocked.
+- with visibility:hidden; the element is hidden but its space is reserved.
+## text-align property
 
