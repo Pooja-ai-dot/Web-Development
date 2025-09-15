@@ -582,6 +582,161 @@ Shorthand property for grid-row-gap & grid-column-gap
 ```
 ## Properties for grid container
 
+### 1. grid-template-column 
+It can be used to specify the width of columns.
+```
+.container{
+          dispaly:grid;
+          grid-template-column: 80px 120px auto;
+          }
+```
+
+### 2.grid-template-rows
+It cab be used to specify the height of each rows.
+```
+.container{
+           display:grid;
+           grid-tmplate-row: 7-px 150px;
+          }
+```
+### 3. justify-content
+It is used to align the whole grid inside the container.
+
+### 4. align-content
+It is used to vertically align the whole grid inside the container.
+
+## Properties for grid items
+
+### 1. grid-column
+It defines how many columns an item will span.
+```
+.grid-item{
+           grid-column:1/5;
+           }
+```
+
+### 2. grid-row
+It defines how many row an item will span.
+<b> We can make an item to start on column 1 and span 3 columns.</b>
+```
+.item{
+     grid-column:1/span3;
+      }
+```
+## CSS Media Queries
+It is used to apply CSS only when a certain condtion is true.
+```
+@ media only screen and (max-width:800px){
+                body{
+                     background:red;
+                      }
+               }
+```
+# Transforms, Transitions & Animations
+## Transforms 
+Transforms are used to rotate, move, skew or scale elemnts. They are used to create a 3-D effect.
+### transform-origin
+Allows to change the position of transformed elements.
+2D transforms : can change x & y axis
+3D transforms : can change z axiz as well
+
+### 2D transforms Method
+- translate()
+- rotate()
+- scale()
+- scaleX()
+- scaleY()
+- skew()
+- matrix()
+
+### 3D transforms Method
+- rotateX()
+- rotateY()
+- rotateZ()
+
+## Transitions
+It is used to add transition in CSS
+- transition-property : the property you want to transition
+- transition-duration : time for which you want transition to apply
+- transition-timing-function : how you want the property to transition
+- transition-delay : specifies the delay for the transition
+All these properties can be set using a single shorthand property
+```
+transition : width(property) 3s(duration) ease-in(timing-function 2s(delay);
+```
+## Animations
+We can use @keyframes rule to change the animation from a given style to a new style.
+```
+@keyframes potter{
+                  from{width:20px;}
+                  to{width:31px;}
+           }
+```
+## Properties to add Animations
+- animation-name: name of the animation
+- animation-duration: how long does the animation run?
+- animation-timing-function: setermines speed curve of the animation
+- animation-delay: delay for the start of an animation
+- animation-iteration-content: number of times an animation should run
+- animation-direction: specifies the direction of the animation
+
+## The animation shorthand
+```
+animation: potter 6s linear 1s infinite reverse;
+```
+
+### Using percentage value states with animation 
+we can use %values to indicate what should happen when a certain percent of animation is completed.
+```
+@keyframes potter{ 
+          0% {
+               width:20px;
+            }
+          50%{
+              widht:80px;
+              }
+           100%{
+               width:200px;
+              } 
+         }
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 
 
