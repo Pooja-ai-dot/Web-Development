@@ -537,6 +537,51 @@ Aim to providing a better way to layout, align and distribute space among items 
            display:flex;
            }
 ```
+## flex-direction property
+It defines the direction towards which items are laid.<br>
+It can be row(default), row-reverse, column, column-reverse.
+
+## flex properties for parent (flex container)
+### 1. flex-wrap
+It can be wrap, nowrap, wrap-reverse.<br>
+Wrap items as needed with this property.
+### 2. justify-content
+It defines alignment along main axis.
+### 3. align-items
+It defines alignment along cross axis.
+### 4.align-content
+It aligns a flex container's lines when there is extra space in the cross axis.
+
+## flex properties for the children (flex items)
+### 1.order
+It controls the order in which the items appear in the flex container.
+### 2. align-self
+It allows defualt alignment to be overridden for the individual flex items.
+### 3. flex-grow
+It defines the ability for a flex item to grow.
+### 4. flex-shrink
+It specifies how much a flex item will shrink relative to the rest of the flex items.
+
+# CSS Grid & Media Queries
+```
+.container{
+          display:grid;
+          }
+```
+## grid-column-gap property
+Used to adjust the space between the columns of a grid.
+## grid-row-gap property
+Used to adjust the space between the rows of a grid.
+## grid-gap property
+Shorthand property for grid-row-gap & grid-column-gap
+```
+.container{
+           display:grid;
+           grid-gap: 40px(row) 100px(column);
+           }
+```
+## Properties for grid container
+
 
 
 
