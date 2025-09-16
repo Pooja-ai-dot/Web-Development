@@ -700,68 +700,15 @@ we can use %values to indicate what should happen when a certain percent of anim
               } 
          }
 ```
+# JavaScript
+## How to excute JavaScript ?
+- JavaScript can be executed right inside one's browser. You can open the javascript console and start writing javascript there.
 
+- Another way to execute javascript is a runtime like Node.js which can be installed and used to run javascript code.
 
+- Yet another way to execute javascript is by inserting it inside <script> tag of an HTML document.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Variables & Data
+A variable is a container that stores a value. This is very similar to the containers used to store rice, water and oats(Treat this as an analogy!).<br>
+The value of a javascript variable can be changed during the execution of a program.
 
